@@ -12,6 +12,7 @@ task = Task.init(
 )
 
 random.seed()
+print('Ví dụ về cam kết thay đổi')
 
 for i in tqdm(range(10)):
     task.get_logger().report_scalar(
